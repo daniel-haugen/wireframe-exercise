@@ -54,6 +54,10 @@ main {
   height: 400px;
 }
 
+.ctr2>img {
+  width: 50%;
+}
+
 .ctr2>div {
   padding: 5px 20px;
 }
@@ -77,6 +81,11 @@ button {
   font-size: 1.4em;
   border-radius: 10px;
   margin-top: 20px;
+}
+
+button:hover {
+  background-color: grey;
+  transition: 350ms;
 }
 
 footer {
